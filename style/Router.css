@@ -1,0 +1,56 @@
+:root{
+	--baseRouterBackgroundColor : #444444;
+	--baseRoterButtonHeight : 60px;
+
+}
+
+/*Router*/
+.Router-Area{
+	text-align: center;
+}
+.Router-Frame{
+	background-color : var(--baseRouterBackgroundColor);
+	height : var(--baseRoterButtonHeight);
+}
+.Router-Frame>div{
+	display: inline-block;
+	/*	width: -webkit-fit-content;  ie 不可用
+	width: -moz-fit-content;
+	width: fit-content; */ 
+}
+.Router-LinkFrame{
+	float: left;
+}
+.Router-LinkFrame>a{
+	text-decoration : none;
+	color : white;
+
+}
+
+.Router-Link{
+	font-family: monospace;
+	width:200px;
+	height:var(--baseRoterButtonHeight);
+	border-radius:5px;
+	background-color:var(--baseRouterBackgroundColor);
+	margin:auto;
+	text-align:center;
+	line-height:var(--baseRoterButtonHeight);
+	-webkit-transition: background-color 250ms;
+	transition: background-color 250ms;
+
+}
+.Router-Link:hover{
+	background-color:#888888;
+}
+
+/*.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+*/

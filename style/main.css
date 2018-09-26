@@ -1,0 +1,25 @@
+@font-face {
+    font-family: parentssuck;
+    src: url(./font/telelower.ttf);
+}
+
+.title {
+    font-family: parentssuck;
+    font-size:100px;
+    text-align: center;
+}
+.transition-time{
+	/*transition:opacity 250ms;*/
+}
+table{
+	padding : 10px;
+	border-collapse : collapse;
+}
+tr{
+	display : table-row;
+	border : 5px solid #DDDDDD;
+}
+td{
+	display : table-cell;
+	border : 5px solid #DDDDDD;
+}

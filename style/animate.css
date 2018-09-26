@@ -1,0 +1,58 @@
+ :root{
+	--base: #ffc600;
+
+ }
+.cssFrame{
+	border:#000000 1px solid;
+	padding:5px; 
+}
+
+.Container .Container-Chart{
+	width: 100%;
+	height: 200px;
+	
+}
+.Container{
+	margin: auto;
+
+}
+.Container-Chart>div{
+	-webkit-transition: width 750ms;
+	transition: width 750ms;
+	/*height: calc(100%/4);*/
+	width :50px;
+	border-radius: 0 15px 15px 0;
+	vertical-align: middle;
+}
+.Container-Chart>div>div{
+	transition: 1000ms ;
+	opacity: 0;
+	padding-left: 15%;
+	height: 100%;
+	top:calc(50% - 40px);
+}
+.Container-Chart>div:hover{
+	width:25%;
+}
+
+.Container-Chart>div:hover>div{
+	opacity:0.8;
+}
+.Container-Chart .Chart-bar{
+
+}
+/*
+
+.Container-Chart .bar1{
+	background-color: #FFFF88;
+}
+.Container-Chart .bar2{
+	background-color: #88FFFF;
+}
+.Container-Chart .bar3{
+	background-color: #FF88FF;
+}
+.Container-Chart .bar4{
+	background-color: #FF8888;
+}
+*/
