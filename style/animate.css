@@ -16,31 +16,65 @@
 	margin: auto;
 
 }
-.Container-Chart>div{
-	-webkit-transition: width 750ms;
-	transition: width 750ms;
+#BarChartFrame>div{
+	-webkit-transition: width 3s;
+	transition: width 3s;
 	/*height: calc(100%/4);*/
 	width :50px;
 	border-radius: 0 15px 15px 0;
+	text-align: start;
 	vertical-align: middle;
 }
-.Container-Chart>div>div{
-	transition: 1000ms ;
-	opacity: 0;
-	padding-left: 15%;
+#BarChartFrame>div>div{
+	font-family: setofont;
+	transition: 1s ;
+	opacity:0;
+	padding-left: 7px;
 	height: 100%;
+	text-align: start;
 	top:calc(50% - 40px);
 }
-.Container-Chart>div:hover{
-	width:25%;
+#BarChartFrame>div:hover{
+	/*width:50%;*/
 }
 
-.Container-Chart>div:hover>div{
+#BarChartFrame>div:hover > div{
 	opacity:0.8;
+	font-weight: bold;
+    font-size: 22px;
 }
-.Container-Chart .Chart-bar{
+#BarChartFrame{
+	width:60%;
 
 }
+#PieChartFrame{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+#Circle_Color_Ring{
+	transition: all 1s;
+}
+#Percentage_Area{
+	font-family: Comic Sans MS;
+	font-size: 35px;
+	position: absolute;
+	padding-top: 1%;
+	padding-left: 10%;
+}
+#Percentage_Text{
+
+}
+/*@keyframes circle-draw{
+    80% {
+        	stroke-dashoffset: 0;
+        }
+    }
+#circle3{
+	animation:circle-draw 10s linear;
+}*/
 /*
 
 .Container-Chart .bar1{

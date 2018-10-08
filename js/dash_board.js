@@ -9,7 +9,7 @@ var offsetX,offsetY;
 		var ctx, ctx2;
 		var CanvasOffset;
 		var canvasWidth = parseInt($("#"+object.DomId).css("width").replace("px",""))-15;
-		console.log(canvasWidth)
+		// console.log(canvasWidth)
 		var boFocusspot = false;
 		var Max = Number.MIN_SAFE_INTEGER, Min = Number.MAX_SAFE_INTEGER, Average, Range;
 		var DisplayIntervalValue;
@@ -33,6 +33,7 @@ var offsetX,offsetY;
 			canvas2 = $("#testcanvas");
 			ctx2 = canvas2[0].getContext('2d');
 			ctx.canvas.width  = canvasWidth;
+			// console.log(canvasWidth)
 			ctx.canvas.height = object.Height;
 			ctx2.canvas.width  = canvasWidth;
 			ctx2.canvas.height = object.Height;
@@ -244,6 +245,11 @@ var offsetX,offsetY;
 
 
 		_dashboard();
+		$(window).resize(function() {
+			canvasWidth = parseInt($("#"+object.DomId).css("width").replace("px",""))-15;
+			_dashboard();
+		});
+
 	}
 
 	var x = {DomId:"example",Width:$(window).width()*0.9,Height:300,Color:["#FF9999"],Title:["Number"],Data:[8,3,5,3,5,7,2,3,1]};

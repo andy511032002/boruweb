@@ -28,7 +28,7 @@
 }
 
 .Router-Link{
-	font-family: monospace;
+	font-family: setofont;
 	width:200px;
 	height:var(--baseRoterButtonHeight);
 	border-radius:5px;

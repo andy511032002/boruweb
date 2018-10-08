@@ -1,12 +1,22 @@
 @font-face {
-    font-family: parentssuck;
-    src: url(./font/telelower.ttf);
+	font-family: parentssuck;
+	src: url(./font/telelower.ttf);
+}
+@font-face {
+	font-family: setofont;
+	src: url(./font/setofont.ttf);
+}
+@font-face {
+	font-family: irohamaru-Regular;
+	src: url(./font/irohamaru-Regular.ttf);
 }
 
+
+
 .title {
-    font-family: parentssuck;
-    font-size:100px;
-    text-align: center;
+	font-family: parentssuck;
+	font-size:100px;
+	text-align: center;
 }
 .transition-time{
 	/*transition:opacity 250ms;*/
@@ -14,6 +24,13 @@
 table{
 	padding : 10px;
 	border-collapse : collapse;
+}
+th{
+	display : table-row;
+	border : 5px solid #DDDDDD;
+	color : #FFFFFF;
+	background-color: #333333;
+	font-size: 20px;
 }
 tr{
 	display : table-row;
@@ -23,3 +40,48 @@ td{
 	display : table-cell;
 	border : 5px solid #DDDDDD;
 }
+.DescribeStyle{
+	display: comtents;
+	text-align: left;
+	font-family: irohamaru-Regular
+}
+
+
+
+
+.AboutContents{
+	text-align: left;
+	font-family: irohamaru-Regular;
+	padding: 150px;
+	padding-top: 25px;
+}
+.PicFramebutton{
+	color: #fff;
+	background-color: #222;
+	position: absolute;
+	top: 490px;
+	border: none;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 8px 16px;
+	vertical-align: middle;
+	user-select: none;
+}
+.PicFramebutton:focus{
+	outline:0;
+}.PicFramebutton:hover{
+	background-color:#666;
+}
+.PicFrameImg{
+	width: 100%;
+	height:auto;
+}
+.LeftButton{
+	left: 3%;
+}
+.RightButton{
+	right:42%;
+}
+

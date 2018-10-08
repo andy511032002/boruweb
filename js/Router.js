@@ -42,22 +42,21 @@ class RouterComponent extends React.Component{
                   <div className="Router-LinkFrame">
                     <NavLink style={{fontSize: '20px'}} activeStyle={{ fontWeight: 'bold',fontSize:'25px' }} exact to="/">
                       <div className="Router-Link">
-                        Home
+                        首頁
                       </div>
                     </NavLink>
                   </div>        
                   <div className="Router-LinkFrame">
                     <NavLink style={{fontSize: '20px'}} activeStyle={{ fontWeight: 'bold',fontSize:'25px' }} to="/About">
                       <div className="Router-Link">
-                        About
+                        關於我
                       </div>
                     </NavLink>
                   </div>
                   <div className="Router-LinkFrame">
-                    <NavLink style={{fontSize: '20px'}} activeStyle={{ fontWeight: 'bold',fontSize:'25px' }} to="/Practicing">
+                    <NavLink style={{fontSize: '20px'}} activeStyle={{ fontWeight: 'bold',fontSize:'25px',lineHeight: 'unset' }} to="/Practicing">
                       <div className="Router-Link">    
-                        Practicing
-
+                        練習與經歷
                       </div>
                     </NavLink>
                   </div>     
