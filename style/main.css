@@ -43,7 +43,7 @@ td{
 .DescribeStyle{
 	display: comtents;
 	text-align: left;
-	font-family: irohamaru-Regular
+	font-family: irohamaru-Regular;
 }
 
 
@@ -54,6 +54,7 @@ td{
 	font-family: irohamaru-Regular;
 	padding: 150px;
 	padding-top: 25px;
+	line-height: 35px;
 }
 .PicFramebutton{
 	color: #fff;
